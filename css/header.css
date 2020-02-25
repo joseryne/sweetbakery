@@ -1,0 +1,29 @@
+font {
+  font-family: "Pacifico", cursive;
+}
+
+header {
+  grid-area: Header;
+  background-color: #ffc7c7;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  padding: 10px;
+  color: white;
+
+}
+.logo {
+  width: 100px;
+  float: left;
+}
+.texto {
+  margin: 0px;
+  text-align: center;
+}
+header > div {
+  display: inline-block;
+  width: 300px;
+}
+#header .titulo {
+  text-align: center;
+  margin-top: 26px;
+}

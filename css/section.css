@@ -1,0 +1,262 @@
+.carta {
+  width: 40%;
+  height: 350px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  display: inline-block;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+}
+
+.receta-del-mes{
+  min-width: 90%;
+  height: 400px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  display: inline-block;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-sizing: border-box;
+padding: 20px;
+}
+.receta-noti-mes{
+  min-width: 90%;
+  height: 0px auto;
+  margin: 20px;
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  display: inline-block;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-sizing: border-box;
+padding: 20px;
+}
+
+section {
+  grid-area: Section;
+  margin: 5px;
+
+}
+.container{
+  text-align: center;
+}
+div{
+  text-align: justify;
+}
+.imagen-ubi{
+  height: 200px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 7px;
+}
+ol > li {
+  color: black;
+  line-height: 30px;
+}
+.ima-prod-esp{
+  height: 100px;
+  width: 200px;
+  border-radius: 7px;
+}
+.receta-diabeticos{
+  min-width: 90%;
+  height: auto;
+  margin: 20px;
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  display: inline-block;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+  -moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+  box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: justify;
+}
+.carta-diabe{
+  width: 300px;
+  height: 400px;
+  margin: 0px auto;
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  display: inline-block;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+  -moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+  box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+  padding: 20px;
+  margin-top: 20px;
+}
+.text-justify{
+text-align: justify;
+}
+.ima-prod-dia{
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+}
+.modo-flex-ubi{
+  display: flex;
+  flex-flow: wrap;
+}
+.modo-flex{
+ display: flex;
+ flex-direction: row row-reverse;
+ flex-wrap: wrap;
+}
+.even-dia-amor{
+  min-width: 90%;
+  height: 400px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  display: inline-block;
+  text-align: justify;
+  -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-sizing: border-box;
+padding: 20px;
+}
+.modo-flex-amor{
+  display: flex;
+  flex-direction: row row-reverse;
+  align-content: space-between;
+ }
+ .modo-flex-amor-ima{
+  display: flex;
+  flex-flow: space-between;
+ }
+.ima-dia-amor{
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  display: inline-block;
+  text-align: justify;
+  -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-sizing: border-box;
+padding: 20px;
+}
+.modo-flex-caridad{
+  display: flex;
+  flex-direction: row row-reverse;
+  align-content: space-between;
+ }
+ .even-caridad{
+  min-width: 300px;
+  height: 200px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  display: inline-block;
+  text-align: justify;
+  -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-sizing: border-box;
+padding: 11px;
+}
+.ima-even-carid{
+  height: 100px;
+  width: 200px;
+  border-radius: 7px;
+}
+
+
+
+
+
+
+table, tbody, th, tr, td{
+ /* border: 1px solid black; */
+   color: white;
+   margin: 0px auto;
+   padding: 10px;
+}
+tbody>tr:first-of-type{
+  background-color: pink;
+
+}
+tbody>tr:last-of-type{
+  background-color: #6a71ff;
+
+}
+tbody > :nth-child(2n){
+  background-color:#ff80b0;
+}
+tbody > :nth-child(2n+1){
+  background-color:  #9399ff;
+}
+table{
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.miBoton{
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  width: fit-content;
+  font-weight: bolder;
+}
+.miBoton:hover{
+  background-color: #ff80b0;
+  color: white;
+  border-radius: 10px;
+}
+.miBoton2{
+  padding: 10px 20px 10px 20px;
+  background-color: teal;
+  background-color: white;
+  width: fit-content;
+  font-weight: bolder;
+}
+.miBoton2:hover{
+  background-color: #9399ff;
+  color: white;
+  border-radius: 10px;
+}
+.taller-del-mes{
+  min-width: 90%;
+  height: 0px auto;
+  margin: 20px;
+  background-color: white;
+  border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  display: inline-block;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.51);
+box-sizing: border-box;
+padding: 20px;
+}
